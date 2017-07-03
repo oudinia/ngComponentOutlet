@@ -1,0 +1,20 @@
+<h1>
+  3 dynamic instances of the same component using ngComponentOutlet
+</h1>
+
+<hr/>
+<div class="row col-md-10" style="margin:5px;">
+  <div class="col-md-3">
+
+    <app-widget-container [countryCode]="'esp'"></app-widget-container>
+  </div>
+  <div class="col-md-3">
+    <app-widget-container [countryCode]="'fra'"></app-widget-container>
+  </div>
+  <div class="col-md-3">
+    <app-widget-container [countryCode]="'deu'"></app-widget-container>
+  </div>
+  <div class="col-md-3">
+    <app-widget-container [countryCode]="'usa'"></app-widget-container>
+  </div>
+</div>
